@@ -1,0 +1,164 @@
+
+header{
+    z-index: 1;
+}
+.image-container {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  .diseased p{
+    color: white;
+  }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background: rgb(20, 170, 47);
+    background: linear-gradient(90deg, rgba(20, 170, 47, 1) 0%, rgba(39, 149, 15, 1) 48%, rgba(9, 121, 81, 1) 95%);
+    color: white;
+    font-size: 18px;
+    position: sticky;
+    top: 0;
+    margin: 0px;
+}
+
+.logo {
+    padding: 0px 20px;
+}
+
+.ul {
+    list-style: none;
+    display: flex;
+}
+
+.ul li {
+    padding: 0px 20px;
+}
+
+.ul li a {
+    text-decoration: none;
+    color: white;
+    transform: 0.2s;
+}
+
+.ul li a:hover {
+    color: rgb(57, 196, 57);
+}
+
+.contact {
+    background-color: rgb(81, 69, 208);
+    padding: 10px 15px;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    transform: 0.2s;
+    cursor: pointer;
+}
+
+.contact:hover {
+    background-color: rgba(93, 80, 241, 0.8);
+}
+
+.whole {
+    background-image: url('../img/plant.jpg');
+}
+
+.file-input-label {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: rgb(81, 69, 208);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.file-input {
+    display: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+    border: 1px black solid;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+label {
+    font-size: 20px;
+}
+
+.detection {
+    background-color: rgb(81, 69, 208);
+    padding: 10px 15px;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    transform: 0.3s;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.detection:hover {
+    background-color: rgba(93, 80, 241, 0.8);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+    background: rgb(20, 170, 47);
+    background: linear-gradient(90deg, rgba(20, 170, 47, 1) 0%, rgba(39, 149, 15, 1) 48%, rgba(9, 121, 81, 1) 95%);
+    color: white;
+    font-size: 15px;
+}
+
+.foot {
+    list-style: none;
+    display: flex;
+}
+
+.foot li {
+    padding: 0px 20px;
+}
+
+.foot li a {
+    text-decoration: none;
+    color: white;
+    transform: 0.2s;
+}
+
+.foot li a:hover {
+    color: rgb(57, 196, 57);
+}
+
+.fb {
+    width: 20px;
+    height: 20px;
+    background-image: url('../img/fb.webp');
+    background-size: cover;
+    border-radius: 50%;
+}
